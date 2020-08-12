@@ -1,6 +1,6 @@
 const express =require('express');
 const helmet = require('helmet');
-const morgan = require('morgan')
+const morgan = require('morgan');
 const bodyParser = require('body-parser')
 const app=express();
 const userController=require('./controllers/routes/userController');
